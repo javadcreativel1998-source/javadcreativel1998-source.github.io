@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://javadcreativel1998-source.github.io/sitemap.xml
