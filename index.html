@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="utf-8" />
+  <base href="https://javadcreativel1998-source.github.io/" />
+    <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>M.Javad Barzegar | Creative Director, AI & Brand Identity Designer</title>
   <meta name="description" content="Creative Director, AI designer and brand identity designer. Save contact, book a WhatsApp call, or view the portfolio." />
@@ -187,7 +188,7 @@
         <div class="print-card">
           <img src="qr.svg" width="1200" height="1200" alt="QR code for this digital card" />
           <p style="margin:.75rem 0 0;font-family:Georgia,serif;font-size:1.1rem;">M.JAVAD BARZEGAR</p>
-          <p style="margin:.35rem 0 0;font-size:.7rem;word-break:break-all;">javadcreativel1998-source.github.io/vpage</p>
+          <p style="margin:.35rem 0 0;font-size:.7rem;word-break:break-all;">javadcreativel1998-source.github.io</p>
         </div>
         <p class="more no-print"><a class="hit" href="qr.svg" download="javad-barzegar-vpage-qr.svg" style="color:var(--gold)">Download SVG</a> · <a class="hit" href="qr.png" download="javad-barzegar-vpage-qr.png" style="color:var(--gold)">Download PNG</a></p>
       </section>
@@ -222,8 +223,8 @@
     });
     function saveContact() {
       var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
-      if (ios) { location.href = "MJ-Barzegar.vcf"; return; }
-      var a = document.createElement("a"); a.href = "MJ-Barzegar.vcf"; a.download = "M-Javad-Barzegar.vcf";
+      if (ios) { location.href = "/MJ-Barzegar.vcf"; return; }
+      var a = document.createElement("a"); a.href = "/MJ-Barzegar.vcf"; a.download = "M-Javad-Barzegar.vcf";
       document.body.appendChild(a); a.click(); a.remove();
     }
     document.getElementById("saveBtn").onclick = saveContact;
